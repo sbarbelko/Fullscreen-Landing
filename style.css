@@ -55,23 +55,22 @@ a {
 footer {
     font-size: 0;
 }
+
+
+.dark-footer, .bright-footer {
+  width: calc(100% / 3);
+  display: inline-block;
+  font-size: initial; 
+  padding: 15px;
+  font-size: 18px; 
+}
+
 .dark-footer {
-    
     color: bisque;
-    width: calc(100%/3);
     background-color: rgb(131, 86, 32);
-    display: inline-block;
-    font-size: initial;
-    padding: 15px ;
-    font-size: 18px;
 }
 
 .bright-footer {
     color: rgb(131, 86, 32);
-    width: calc(100%/3);
     background-color: bisque;
-    display: inline-block;
-    font-size: initial;
-    padding: 15px;
-    font-size: 18px;
 }
